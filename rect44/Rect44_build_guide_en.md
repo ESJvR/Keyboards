@@ -29,12 +29,12 @@ Also, there are many places that need to be soldered. To avoid burns and fire wi
 - Cushion seal ... 4 pieces
 
 
-|![PCB](./img/parts_16.jpg) |![Case] ​​(./img/parts_02.jpg) |![Bottom plate](./img/parts_17.jpg) |![ProMicro dropout prevention plate](./img/parts_04.jpg) | 
+|![PCB](./img/parts_16.jpg) |![Case](./img/parts_02.jpg) |![Bottom plate](./img/parts_17.jpg) |![ProMicro dropout prevention plate](./img/parts_04.jpg) | 
 | ---- | ---- | ---- | ---- | 
 | Board | Stainless Steel Case | Stainless Steel Bottom Plate | ProMicro Fall Prevention Plate | 
 |![Socket](./img/parts_05.jpg) |![Diode](./img/parts_06.jpg) |![Shotkey Barrier Diode (SMD type)](./img/parts_19.jpg) |![Shotkey Barrier Diode (SMD type)](./img/parts_20.jpg) | 
 | MX compatible socket | Diode | Shotkey barrier diode (SMD type) | Shotkey barrier diode (TH type) | 
-|![Slide switch](./ img / parts_08.jpg) |![Tact Switch](./img/parts_09.jpg) |![AAA Battery Case] ​​(./img/parts_10.jpg) |![12pin Consul](./img/parts_11) .jpg) | 
+|![Slide switch](./img/parts_08.jpg) |![Tact Switch](./img/parts_09.jpg) |![AAA Battery Case](./img/parts_10.jpg) |![12pin Consul](./img/parts_11.jpg) | 
 | Slide Switch | Tact Switch | AAA Battery Case | 12pin Consul | 
 |![M2 Spacer](./img/parts_21.jpg) |![M2 Pan Machine Screw](./img/parts_14.jpg) ) |![PCB Support](./img/parts_22.jpg) |![M2.6 Low Head Screw](./img/parts_23.jpg) |
 | M2 spacer (7mm, 6.5mm, 6mm 2 each) | M2 pan head machine screw | PCB support | M2.6 low head screw | 
