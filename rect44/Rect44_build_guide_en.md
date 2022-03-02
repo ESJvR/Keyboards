@@ -29,28 +29,16 @@ Also, there are many places that need to be soldered. To avoid burns and fire wi
 - Cushion seal ... 4 pieces
 
 
-| ![PCB](./img/parts_16.jpg) | ![ケース](./img/parts_02.jpg) | ![底板](./img/parts_17.jpg) | ![ProMicro脱落防止板](./img/parts_04.jpg) |
-| ---- | ---- | ---- | ---- |
-|基板|ステンレスケース|ステンレス底板|ProMicro脱落防止板|
-| ![ソケット](./img/parts_05.jpg) | ![ダイオード](./img/parts_06.jpg) | ![ショットキーバリアダイオード(SMDタイプ)](./img/parts_19.jpg) | ![ショットキーバリアダイオード(SMDタイプ)](./img/parts_20.jpg) |
-|MX互換ソケット|ダイオード|ショットキーバリアダイオード(SMDタイプ)|ショットキーバリアダイオード(THタイプ)|
-| ![スライドスイッチ](./img/parts_08.jpg) | ![タクトスイッチ](./img/parts_09.jpg) | ![単4電池ケース](./img/parts_10.jpg) | ![12pinコンスルー](./img/parts_11.jpg) |
-|スライドスイッチ|タクトスイッチ|単4電池ケース|12pinコンスルー|
-| ![M2スペーサー](./img/parts_21.jpg) | ![M2 ナベ小ねじ](./img/parts_14.jpg) | ![PCBサポート](./img/parts_22.jpg) | ![M2.6 低頭ネジ](./img/parts_23.jpg) |
-|M2スペーサー(7mm,6.5mm,6mm 各2個)|M2 ナベ小ねじ|PCBサポート|M2.6 低頭ネジ|
-| ![M3 低頭ネジ](./img/parts_13.jpg) |![クッションシール](./img/parts_15.jpg)|||
-|M3 低頭ネジ|クッションシール|||
-
-|! [PCB] (./img/parts_16.jpg) |! [Case] ​​(./img/parts_02.jpg) |! [Bottom plate] (./img/parts_17.jpg) |! [ProMicro dropout prevention plate] (./img/parts_04.jpg) | 
+|! [PCB](./img/parts_16.jpg) |! [Case] ​​(./img/parts_02.jpg) |! [Bottom plate](./img/parts_17.jpg) |! [ProMicro dropout prevention plate](./img/parts_04.jpg) | 
 | ---- | ---- | ---- | ---- | 
 | Board | Stainless Steel Case | Stainless Steel Bottom Plate | ProMicro Fall Prevention Plate | 
-|! [Socket] (./img/parts_05.jpg) |! [Diode] (./img/parts_06.jpg) |! [Shotkey Barrier Diode (SMD type)] (./img/parts_19.jpg) |! [Shotkey Barrier Diode (SMD type)] (./img/parts_20.jpg) | 
+|! [Socket](./img/parts_05.jpg) |! [Diode](./img/parts_06.jpg) |! [Shotkey Barrier Diode (SMD type)](./img/parts_19.jpg) |! [Shotkey Barrier Diode (SMD type)](./img/parts_20.jpg) | 
 | MX compatible socket | Diode | Shotkey barrier diode (SMD type) | Shotkey barrier diode (TH type) | 
-|! [Slide switch] (./ img / parts_08.jpg) |! [Tact Switch] (./img/parts_09.jpg) |! [AAA Battery Case] ​​(./img/parts_10.jpg) |! [12pin Consul] (./img/parts_11) .jpg) | 
+|! [Slide switch](./ img / parts_08.jpg) |! [Tact Switch](./img/parts_09.jpg) |! [AAA Battery Case] ​​(./img/parts_10.jpg) |! [12pin Consul](./img/parts_11) .jpg) | 
 | Slide Switch | Tact Switch | AAA Battery Case | 12pin Consul | 
-|! [M2 Spacer] (./img/parts_21.jpg) |! [M2 Pan Machine Screw] (./img/parts_14.jpg) ) |! [PCB Support] (./img/parts_22.jpg) |! [M2.6 Low Head Screw] (./img/parts_23.jpg) |
+|! [M2 Spacer](./img/parts_21.jpg) |! [M2 Pan Machine Screw](./img/parts_14.jpg) ) |! [PCB Support](./img/parts_22.jpg) |! [M2.6 Low Head Screw](./img/parts_23.jpg) |
 | M2 spacer (7mm, 6.5mm, 6mm 2 each) | M2 pan head machine screw | PCB support | M2.6 low head screw | 
-|! [M3 low head screw] (./img/parts_13.jpg) |! [Cushion seal ] (./img/parts_15.jpg) ||| 
+|! [M3 low head screw](./img/parts_13.jpg) |! [Cushion seal ](./img/parts_15.jpg) ||| 
 | M3 low head screw | Cushion seal ||| 
 ### Parts to be prepared separately
 - ProMicro or ProMicro compatible product: 1 piece
@@ -81,7 +69,7 @@ Also, there are many places that need to be soldered. To avoid burns and fire wi
 
 ## Firmware
 
-We recommend using [BLE Micro Pro] (https://nogikes.booth.pm/items/1177319) by ["Nogikesuya"] (https://nogikes.booth.pm/).  
+We recommend using [BLE Micro Pro](https://nogikes.booth.pm/items/1177319) by ["Nogikesuya"](https://nogikes.booth.pm/).  
 There is no need to build an environment to build the firmware, so it is easy and you will be able to make a Bluetooth connection.
 
 ### When using BLE Micro Pro
@@ -114,8 +102,8 @@ Copy and paste the following content and save it as CONFIG.JSN in any location. 
 
 #### KEYMAP.JSN
 KEYMAP.JSN will be customized according to the layout you choose.
-The key code is the same as [QMK Keycordes] (https://docs.qmk.fm/#/keycodes).  
-[BLE Micro Pro specific key code] (https://github.com/sekigon-gonnoc/BLE-Micro-Pro/blob/master/docs/edit_keymap_file.md#ble-micro-pro%E5%9B%BA% E6% 9C% 89% E3% 81% AE% E3% 82% AD% E3% 83% BC% E3% 82% B3% E3% 83% BC% E3% 83% 89) is also available, so please introduce it as appropriate. ..
+The key code is the same as [QMK Keycordes](https://docs.qmk.fm/#/keycodes).  
+[BLE Micro Pro specific key code](https://github.com/sekigon-gonnoc/BLE-Micro-Pro/blob/master/docs/edit_keymap_file.md#ble-micro-pro%E5%9B%BA% E6% 9C% 89% E3% 81% AE% E3% 82% AD% E3% 83% BC% E3% 82% B3% E3% 83% BC% E3% 83% 89) is also available, so please introduce it as appropriate. ..
 
 The keys that change depending on the layout are "13", "25", "28", "38", "43", "45", "46", "48" in the CONFIG.JSN "layout" section. "am.
 -"13" key: The upper right key in the ANSI array. Not available when using the ISO return key.
@@ -189,7 +177,7 @@ Copy and paste any of the above samples and save it as KEYMAP.JSN. Of course, cu
 #### write in
 If you connect BLE Micro Pro to a PC with a USB cable, it will be recognized as if you connected a USB memory, so copy the created CONFIG.JSN and KEYMAP.JSN to the BLE Micro Pro side.
 
-|! [BMP files] (./img/bmp_01.jpg) |
+|! [BMP files](./img/bmp_01.jpg) |
 | - -  |
 | In the above figure, "name" in "device_info" of CONFIG.JSN is rect44-3, so it is recognized as such. |
 
@@ -200,18 +188,18 @@ https://github.com/sekigon-gonnoc/BLE-Micro-Pro/tree/master/AboutDefaultFirmware
 
 #### Building the environment
 Basically here  
-[The Complete Newbs Guide To QMK] (https://docs.qmk.fm/#/newbs)  
+[The Complete Newbs Guide To QMK](https://docs.qmk.fm/#/newbs)  
 However, if you are not good at English  
 
-[QMK firmware Basics of firmware 1] (http://roudokuvip.hateblo.jp/entry/2018/04/29/013126)  
+[QMK firmware Basics of firmware 1](http://roudokuvip.hateblo.jp/entry/2018/04/29/013126)  
 Is recommended.  
 The series of descriptions from here was very helpful, and I saw this and built the environment of QMK.
 
 
 #### Customize
-[QMK Configurator] (https://config.qmk.fm/) can be used, so if you enter `rect44` in` KEYBOARD: `, the ANSI 47 key version will be displayed.  
+[QMK Configurator](https://config.qmk.fm/) can be used, so if you enter `rect44` in` KEYBOARD: `, the ANSI 47 key version will be displayed.  
 For other layouts (ANSI 44 keyboard layout and ISO 48 keyboard layout), copy and paste the following contents, save it as a `.json` file in any location, and click the` Import QMK Keymap JSON file` button in QMK Configurator. Press to load.  
-! [JSON Road button] (./img/road_json_btn.png)
+! [JSON Road button](./img/road_json_btn.png)
 
 ansi_44key.json (ANSI 44 key layout example)
 ```
@@ -277,73 +265,73 @@ If you would like to do something else, please use it as it has been merged into
 
 ## Assembly
 From here, soldering work will be done in more than 200 places.  
-For those who are unfamiliar with soldering work or who feel uneasy, go through the [WEB version soldering basic course] (https://godhanda.co.jp/kouza/) published by God Soldering Co., Ltd. Recommended to read.
+For those who are unfamiliar with soldering work or who feel uneasy, go through the [WEB version soldering basic course](https://godhanda.co.jp/kouza/) published by God Soldering Co., Ltd. Recommended to read.
 
 The side on which the parts are mounted is the side marked "Rect 44 v1.2" in the lower left.
 
 ### Key switch diode
 The attached diode is a surface mount (SMD) type diode, but this board also allows through hole type diodes to be mounted, so if you are not confident in mounting the surface mount type, you will need a separate through hole. You can also get and install a type of diode. The recommended diode to use is "1N4148", which is easily available.  
-[Akizuki Denshi Tsusho] (https://akizukidenshi.com/catalog/g/gI-00941/)  
-[TALP KEYBOARD] (https://talpkeyboard.stores.jp/items/59eadbffc8f22c15de001638)  
+[Akizuki Denshi Tsusho](https://akizukidenshi.com/catalog/g/gI-00941/)  
+[TALP KEYBOARD](https://talpkeyboard.stores.jp/items/59eadbffc8f22c15de001638)  
 You can get it at.
 
-|! [diode_01] (./img/diode_01.jpg) |
+|! [diode_01](./img/diode_01.jpg) |
 | - -  |
-| Solder by aligning the position of the diode mark bar on the board with the direction of the diode wire. Pre-solder one pad, solder it to that pad, and then solder the other. Again, I think that God Solder's [15 Soldering of chip parts (surface mounting)] (https://godhanda.co.jp/blog/kisokouza15/) will be helpful. |
+| Solder by aligning the position of the diode mark bar on the board with the direction of the diode wire. Pre-solder one pad, solder it to that pad, and then solder the other. Again, I think that God Solder's [15 Soldering of chip parts (surface mounting)](https://godhanda.co.jp/blog/kisokouza15/) will be helpful. |
 
 ### Schottky barrier diode
 Both surface mount (SMD) and through hole (TH) types are included as accessories, but only one is used. If you are not good at soldering surface mount type, please use through hole type.  
 The method is the same as the diode for the key switch. Also, to improve workability, be sure to install it before the battery case.
 
-|! [Schottky barrier diode (SMD type)] (./img/parts_19.jpg) |! [SBD soldering example (SMD type)] (./img/sbd_03.jpg)
+|! [Schottky barrier diode (SMD type)](./img/parts_19.jpg) |! [SBD soldering example (SMD type)](./img/sbd_03.jpg)
 | - -  | - -  |
 | The package is very similar to the diode for key switch, but the one with white dots is the Schottky barrier diode. | The mounting position is the pad marked with SDB1 and silk between the battery box and the controller mounting part. Solder the wire indicating the cathode of the diode toward the ProMicro mounting part. |
-|! [Schottky barrier diode (TH type)] (./img/parts_20.jpg) |! [SBD soldering example (TH type)] (./img/sbd_04.jpg)
+|! [Schottky barrier diode (TH type)](./img/parts_20.jpg) |! [SBD soldering example (TH type)](./img/sbd_04.jpg)
 | Schottky barrier diode (TH type) | The pad indicated by SDB1 and silk is the mounting position between the battery box and the controller mounting part. Solder the wire indicating the cathode of the diode toward the ProMicro mounting part. |
 
 
 ### Socket
-|! [Socket_01] (./img/socket_01.jpg) |! [socket_03] (./img/socket_03.jpg) |
+|! [Socket_01](./img/socket_01.jpg) |! [socket_03](./img/socket_03.jpg) |
 | - -  | - -  |
 | There is a white border, so please solder it accordingly. Please note that you can solder even in the opposite direction. | Solder the socket that goes under the controller with the conthrough attached just in case. |
 
 ### Power switch, reset switch
-|! [pr_sw_01] (./img/pr_sw_01.jpg) |! [pr_sw_02] (./img/pr_sw_02.jpg) |
+|! [pr_sw_01](./img/pr_sw_01.jpg) |! [pr_sw_02](./img/pr_sw_02.jpg) |
 | - -  | - -  |
 | Installation location | Place the parts according to the silk as shown in the picture |
-! [pr_sw_03] (./img/pr_sw_03.jpg) | |
+! [pr_sw_03](./img/pr_sw_03.jpg) | |
 | Solder from the back side. | |
 
 ### Battery case
 It is the tallest component to be attached to this board, so solder it last.
 
-|! [Batt_case_01] (./img/bat_case_01.jpg) |
+|! [Batt_case_01](./img/bat_case_01.jpg) |
 | - -  |
 | Place the battery case on the side with the silk and solder from the other side so that you do not mistake the direction of plus or minus. After soldering, cut off the excess pins with nippers. |
 
 ### BLE Micro Pro
-|! [bmp_02] (./img/bmp_02.jpg) |! [bmp_03] (./img/bmp_03.jpg) |
+|! [bmp_02](./img/bmp_02.jpg) |! [bmp_03](./img/bmp_03.jpg) |
 | - -  | - -  |
 | Set up a spacer for the fall prevention plate. | |
-! [bmp_04] (./img/bmp_04.jpg) |! [bmp_05] (./img/bmp_05.jpg) |
+! [bmp_04](./img/bmp_04.jpg) |! [bmp_05](./img/bmp_05.jpg) |
 | Next, install the conthrough. At this time, install the column on the "BAT" side at a position where it does not cover "BAT" and "B6", and the row on the opposite side at a position where it does not cover "B5" and "GND". Also, make sure that the windows next to the conthrue are in the same orientation. | Fit BLE Micro Pro. |
-|! [Bmp_06] (./img/bmp_06.jpg) | |
+|! [Bmp_06](./img/bmp_06.jpg) | |
 | Install the fall prevention plate. | |
 
 ### ProMicro
-|! [pm_01] (./img/pm_01.jpg) |! [pm_02] (./img/pm_02.jpg) |
+|! [pm_01](./img/pm_01.jpg) |! [pm_02](./img/pm_02.jpg) |
 | - -  | - -  |
 | Conthrough and soldering are required when using ProMicro. As shown in the picture below, the windows of the conthrue should be oriented in the same direction, and solder them so that the windows are closer to the ProMicro side.
 
 Attach this soldered one to the position where "BAT" and "GND" are not used (the position where "B5" and "B6" are used) on the edge of the board.  
 After installing, install the fall prevention plate in the same way as BLE Micro Pro.
 
-This kit is based on black for the color of the board and other parts used, so if you use ProMicro, [Kagizaraya-san's Kamisori] (https://booth.pm/ja/items/1500088) ) Etc. are also recommended. It also supports con-through, so there is no need to solder.
+This kit is based on black for the color of the board and other parts used, so if you use ProMicro, [Kagizaraya-san's Kamisori](https://booth.pm/ja/items/1500088) ) Etc. are also recommended. It also supports con-through, so there is no need to solder.
 
 ### Stabilizer
 Install a stabilizer that matches the layout.  
 
-|! [Batt_case_02] (./img/bat_case_02.jpg) |
+|! [Batt_case_02](./img/bat_case_02.jpg) |
 | - -  |
 | The photo is an example of the ANSI array 47 key (split right Shift and space bar). |
 
@@ -356,12 +344,12 @@ The recommended profile is flat DSA or XDA, or tall SA.
 
 
 ### Bottom plate
-|! [Bt_plate_01] (./img/bt_plate_01.jpg) |! [bt_plate_05] (./img/bt_plate_05.jpg) |
+|! [Bt_plate_01](./img/bt_plate_01.jpg) |! [bt_plate_05](./img/bt_plate_05.jpg) |
 | - -  | - -  |
 | When using BLE Micro Pro, insert AAA batteries before installing the bottom plate. | Insert the PCB supports at the four corners of the bottom plate with the clean finished surface on the outside and tighten them together. |
-|! [Bt_plate_06] (./img/bt_plate_06.jpg) |! [bt_plate_07] (./img/bt_plate_07.jpg) |
+|! [Bt_plate_06](./img/bt_plate_06.jpg) |! [bt_plate_07](./img/bt_plate_07.jpg) |
 | After tightening the bottom plate together. | Insert the PCB support on the other side and tighten it together. |
-|! [Bt_plate_08] (./img/bt_plate_08.jpg) |! [bt_plate_09] (./img/bt_plate_09.jpg) |
+|! [Bt_plate_08](./img/bt_plate_08.jpg) |! [bt_plate_09](./img/bt_plate_09.jpg) |
 | Secure the remaining 6 holes with M3 low head screws. | Stick cushion stickers on the four corners. |
 
 
@@ -373,4 +361,4 @@ Also, if you find any mistakes or additional information in this build guide, pl
 
 
 ## Acknowledgments
-I referred to nrtkbb's [uzu42 build guide] (https://github.com/nrtkbb/Keyboards/blob/master/uzu42/build_guide_jp.md) when creating this build guide. Thank you very much.
+I referred to nrtkbb's [uzu42 build guide](https://github.com/nrtkbb/Keyboards/blob/master/uzu42/build_guide_jp.md) when creating this build guide. Thank you very much.
