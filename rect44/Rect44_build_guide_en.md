@@ -106,14 +106,14 @@ The key code is the same as [QMK Keycordes](https://docs.qmk.fm/#/keycodes).
 [BLE Micro Pro specific key code](https://github.com/sekigon-gonnoc/BLE-Micro-Pro/blob/master/docs/edit_keymap_file.md#ble-micro-pro%E5%9B%BA% E6% 9C% 89% E3% 81% AE% E3% 82% AD% E3% 83% BC% E3% 82% B3% E3% 83% BC% E3% 83% 89) is also available, so please introduce it as appropriate. ..
 
 The keys that change depending on the layout are "13", "25", "28", "38", "43", "45", "46", "48" in the CONFIG.JSN "layout" section. "am.
--"13" key: The upper right key in the ANSI array. Not available when using the ISO return key.
--"25" key: The key to the right of the semicolon in the ISO array. 2.25u Cannot be used when using the return key.
--"28" key: 1u key when the left Shift key is divided into 1.25u and 1u keys.
--"38" key: 1u key when the right Shift key is divided into 1u and 1.75u keys.
--"43" key: 6.25u This is the left 2.25u key when the space key is divided into three.
--"45" key: 6.25u space key.
--"46" key: 6.25u It is the middle 2.75u key when the space key is divided into three.
--"48" key: 6.25u It is the right 1.25u key when the space key is divided into three.
+- "13" key: The upper right key in the ANSI array. Not available when using the ISO return key.
+- "25" key: The key to the right of the semicolon in the ISO array. 2.25u Cannot be used when using the return key.
+- "28" key: 1u key when the left Shift key is divided into 1.25u and 1u keys.
+- "38" key: 1u key when the right Shift key is divided into 1u and 1.75u keys.
+- "43" key: 6.25u This is the left 2.25u key when the space key is divided into three.
+- "45" key: 6.25u space key.
+- "46" key: 6.25u It is the middle 2.75u key when the space key is divided into three.
+- "48" key: 6.25u It is the right 1.25u key when the space key is divided into three.
 
 Sample for ANSI 44 key with 6.25u space bar.
 ```
@@ -151,7 +151,7 @@ Sample for ANSI 47 key with space key split into 3 and right Shift key split
 "KC_CAPS", "KC_NO", "KC_NO", "KC_NO", "KC_NO", "KC_NO", "KC_NO", "KC_NO", "KC_NO", "KC_NO", "KC_NO", "KC_NO", "KC_NO" ",
 "KC_TRNS", "KC_NO", "KC_NO", "KC_NO", "KC_NO", "KC_NO", "KC_NO", "KC_NO", "KC_NO", "KC_NO", "KC_NO", "KC_NO", "KC_NO" ",
 "KC_LCTL", "KC_TRNS", "KC_TRNS", "KC_NO", "KC_NO", "KC_NO", "KC_NO", "KC_TRNS", "KC_NO", "KC_NO", "KC_NO",]}
-`` ```
+```
 
 Sample for 48 keys with ISO Enter key
 ```
@@ -258,7 +258,7 @@ iso_ 48key.json (ISO 48 key layout example)
     ]
   ]
 }
-```  
+```
 
 
 If you would like to do something else, please use it as it has been merged into QMK.
