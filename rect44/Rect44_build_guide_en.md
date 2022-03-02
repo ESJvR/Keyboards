@@ -28,17 +28,17 @@ Also, there are many places that need to be soldered. To avoid burns and fire wi
 --M3 low head screw ... 10 pieces
 --Cushion seal ... 4 pieces
 
-|! [PCB] (./img/parts_16.jpg) |! [Case] ​​(./img/parts_02.jpg) |! [Bottom plate] (./img/parts_17.jpg) |! [ProMicro dropout prevention plate] (./img/parts_04.jpg) |
+| ![PCB](./img/parts_16.jpg) | ![ケース](./img/parts_02.jpg) | ![底板](./img/parts_17.jpg) | ![ProMicro脱落防止板](./img/parts_04.jpg) |
 | ---- | ---- | ---- | ---- |
-Board | Stainless Steel Case | Stainless Steel Bottom Plate | ProMicro Fall Prevention Plate |
-|! [Socket] (./img/parts_05.jpg) |! [Diode] (./img/parts_06.jpg) |! [Schottky Barrier Diode (SMD type)] (./img/parts_19.jpg) | ! [Schottky barrier diode (SMD type)] (./img/parts_20.jpg) |
-MX compatible socket | Diode | Schottky barrier diode (SMD type) | Schottky barrier diode (TH type) |
-|! [Slide Switch] (./img/parts_08.jpg) |! [Tact Switch] (./img/parts_09.jpg) |! [AAA Battery Case] ​​(./img/parts_10.jpg) |! [ 12pin conthrough] (./img/parts_11.jpg) |
-| Slide switch | Tact switch | AAA battery case | 12pin conthrough |
-|! [M2 Spacer] (./img/parts_21.jpg) |! [M2 Pan Head Machine Screw] (./img/parts_14.jpg) |! [PCB Support] (./img/parts_22.jpg) |! [ M2.6 low head screw] (./img/parts_23.jpg) |
-| M2 spacers (2 each for 7mm, 6.5mm, 6mm) | M2 pan head machine screws | PCB support | M2.6 low head screws |
-|! [M3 low head screw] (./img/parts_13.jpg) |! [Cushion sticker] (./img/parts_15.jpg) |||
-| M3 low head screw | Cushion seal |||
+|基板|ステンレスケース|ステンレス底板|ProMicro脱落防止板|
+| ![ソケット](./img/parts_05.jpg) | ![ダイオード](./img/parts_06.jpg) | ![ショットキーバリアダイオード(SMDタイプ)](./img/parts_19.jpg) | ![ショットキーバリアダイオード(SMDタイプ)](./img/parts_20.jpg) |
+|MX互換ソケット|ダイオード|ショットキーバリアダイオード(SMDタイプ)|ショットキーバリアダイオード(THタイプ)|
+| ![スライドスイッチ](./img/parts_08.jpg) | ![タクトスイッチ](./img/parts_09.jpg) | ![単4電池ケース](./img/parts_10.jpg) | ![12pinコンスルー](./img/parts_11.jpg) |
+|スライドスイッチ|タクトスイッチ|単4電池ケース|12pinコンスルー|
+| ![M2スペーサー](./img/parts_21.jpg) | ![M2 ナベ小ねじ](./img/parts_14.jpg) | ![PCBサポート](./img/parts_22.jpg) | ![M2.6 低頭ネジ](./img/parts_23.jpg) |
+|M2スペーサー(7mm,6.5mm,6mm 各2個)|M2 ナベ小ねじ|PCBサポート|M2.6 低頭ネジ|
+| ![M3 低頭ネジ](./img/parts_13.jpg) |![クッションシール](./img/parts_15.jpg)|||
+|M3 低頭ネジ|クッションシール|||
 
 ### Parts to be prepared separately
 --ProMicro or ProMicro compatible product: 1 piece
@@ -79,7 +79,7 @@ Even if you use the one that was released before, you can use it with the same p
 
 #### CONFIG.JSN
 Copy and paste the following content and save it as CONFIG.JSN in any location. This file does not need to be changed if the keymap changes.
-`` ```
+```
 {"config":
 	{
 		"version": 2,
@@ -98,7 +98,7 @@ Copy and paste the following content and save it as CONFIG.JSN in any location. 
 		"led": {"pin": 255, "num": 0},
 		"keymap": {"locale": "US", "use_ascii": 0}
 }}
-`` ```
+```
 
 #### KEYMAP.JSN
 KEYMAP.JSN will be customized according to the layout you choose.
@@ -116,7 +116,7 @@ The keys that change depending on the layout are "13", "25", "28", "38", "43", "
 -"48" key: 6.25u It is the right 1.25u key when the space key is divided into three.
 
 Sample for ANSI 44 key with 6.25u space bar.
-`` ```
+```
 {"layers":
 [["KC_ESC", "KC_Q", "KC_W", "KC_E", "KC_R", "KC_T", "KC_Y", "KC_U", "KC_I", "KC_O", "KC_P", "KC_MINS", "KC_BSPC",
 "LCTL_T (KC_TAB)", "KC_A", "KC_S", "KC_D", "KC_F", "KC_G", "KC_H", "KC_J", "KC_K", "KC_L", "KC_SCLN", "KC_NO" , "KC_ENT",
@@ -132,10 +132,10 @@ Sample for ANSI 44 key with 6.25u space bar.
 "KC_CAPS", "KC_NO", "KC_NO", "KC_NO", "KC_NO", "KC_NO", "KC_NO", "KC_NO", "KC_NO", "KC_NO", "KC_NO", "KC_NO", "KC_NO" ",
 "KC_TRNS", "KC_NO", "KC_NO", "KC_TRNS", "KC_NO", "KC_NO", "KC_NO", "KC_NO", "KC_NO", "KC_NO", "KC_NO", "KC_NO", "KC_NO" ",
 "KC_LCTL", "KC_TRNS", "KC_TRNS", "KC_NO", "KC_TRNS", "KC_NO", "KC_NO", "KC_NO", "KC_NO", "KC_NO", "KC_NO",]}
-`` ```
+```
 
 Sample for ANSI 47 key with space key split into 3 and right Shift key split
-`` ```
+```
 {"layers":
 [["KC_ESC", "KC_Q", "KC_W", "KC_E", "KC_R", "KC_T", "KC_Y", "KC_U", "KC_I", "KC_O", "KC_P", "KC_MINS", "KC_BSPC",
 "LCTL_T (KC_TAB)", "KC_A", "KC_S", "KC_D", "KC_F", "KC_G", "KC_H", "KC_J", "KC_K", "KC_L", "KC_SCLN", "KC_NO" , "KC_ENT",
@@ -154,7 +154,7 @@ Sample for ANSI 47 key with space key split into 3 and right Shift key split
 `` ```
 
 Sample for 48 keys with ISO Enter key
-`` ```
+```
 {"layers":
 [["KC_ESC", "KC_Q", "KC_W", "KC_E", "KC_R", "KC_T", "KC_Y", "KC_U", "KC_I", "KC_O", "KC_P", "KC_DEL", "KC_NO",
 "LCTL_T (KC_TAB)", "KC_A", "KC_S", "KC_D", "KC_F", "KC_G", "KC_H", "KC_J", "KC_K", "KC_L", "KC_SCLN", "KC_QUOT" , "KC_ENT",
@@ -170,7 +170,7 @@ Sample for 48 keys with ISO Enter key
 "KC_CAPS", "KC_NO", "KC_NO", "KC_NO", "KC_NO", "KC_NO", "KC_NO", "KC_NO", "KC_NO", "KC_NO", "KC_NO", "KC_NO", "KC_NO" ",
 "KC_TRNS", "KC_NO", "KC_NO", "KC_NO", "KC_NO", "KC_NO", "KC_NO", "KC_NO", "KC_NO", "KC_NO", "KC_NO", "KC_NO", "KC_NO" ",
 "KC_TRNS", "KC_TRNS", "KC_TRNS", "KC_NO", "KC_NO", "KC_NO", "KC_TRNS", "KC_TRNS", "KC_NO", "KC_NO", "KC_NO",]}
-`` ```
+```
 
 Copy and paste any of the above samples and save it as KEYMAP.JSN. Of course, customization is also OK.
 
@@ -202,7 +202,7 @@ For other layouts (ANSI 44 keyboard layout and ISO 48 keyboard layout), copy and
 ! [JSON Road button] (./img/road_json_btn.png)
 
 ansi_44key.json (ANSI 44 key layout example)
-`` ```
+```
 {
   "keyboard": "rect44",
   "keymap": "default",
@@ -229,9 +229,9 @@ ansi_44key.json (ANSI 44 key layout example)
     ]
   ]
 }
-`` ```
+```
 iso_ 48key.json (ISO 48 key layout example)
-`` ```
+```
 {
   "keyboard": "rect44",
   "keymap": "default",
@@ -258,7 +258,7 @@ iso_ 48key.json (ISO 48 key layout example)
     ]
   ]
 }
-`` ```  
+```  
 
 
 If you would like to do something else, please use it as it has been merged into QMK.
